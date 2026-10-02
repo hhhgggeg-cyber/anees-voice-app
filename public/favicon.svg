@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4D3E"/>
+      <stop offset="60%" stop-color="#0F5132"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="30%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <rect width="128" height="128" rx="28" fill="url(#glow)"/>
+  <!-- Crescent Moon -->
+  <g transform="translate(38, 28)">
+    <path d="M32 8C20.954 8 12 16.954 12 28s8.954 20 20 20c2.7 0 5.27-.535 7.62-1.502C33.93 44.01 30 39.45 30 34c0-7.18 5.82-13 13-13 1.73 0 3.37.335 4.87.94C44.7 12.99 38.9 8 32 8z"
+      fill="#F0D97C" stroke="#D4AF37" stroke-width="1.5"/>
+  </g>
+  <!-- Microphone -->
+  <g transform="translate(48, 62)">
+    <path d="M16 4a4 4 0 0 0-4 4v10a4 4 0 0 0 8 0V8a4 4 0 0 0-4-4z"
+      fill="#FFFFFF" stroke="#F0D97C" stroke-width="0.8"/>
+    <path d="M26 14v2a10 10 0 0 1-20 0v-2M16 26v4M10 32h12"
+      stroke="#F0D97C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
